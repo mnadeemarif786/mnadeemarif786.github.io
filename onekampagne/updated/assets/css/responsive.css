@@ -1,0 +1,262 @@
+@media (max-width: 1400px) {
+	.gap-85 {
+	    gap: 50px;
+	}
+	.content-column-wrapper .content-column {
+	    flex: 0 0 45%;
+	    max-width: 45%;
+	}
+	.content-column-wrapper .image-column {
+	    flex: 0 0 43%;
+	    max-width: 43%;
+	}
+	.create-campaign .ltr.content-column-wrapper .content-column {
+		margin-right: 40px;
+	}
+	.create-campaign .rtl.content-column-wrapper .content-column {
+	    margin-left: 40px;
+	}
+	.pricing-card-container {
+	    gap: 30px;
+	}
+	.pricing-card-container .pricing-card {
+		flex: 0 0 calc(33.333333% - 20px);
+    	max-width: calc(33.333333% - 20px);
+	}
+	.section-sub-title {
+	    font-size: 22px;
+	}
+	.affiliate-marketing .features_box_wrapper .content-column {
+		flex: 0 0 calc(40% - 25px);
+    	max-width: calc(40% - 25px);
+	}
+	.affiliate-marketing .features_box_wrapper .features-column {
+		flex: 0 0 calc(60% - 25px);
+    	max-width: calc(60% - 25px);
+	}
+	.steps-count .arrow-1, .steps-count .arrow-3 {
+	    max-width: calc(100% + 300px);
+	}
+	.steps-count .arrow-2, .steps-count .arrow-4 {
+	    max-width: calc(100% + 350px);
+	}
+	.available-assets .top-left-most, .winning-products-section .top-left-most, .pricing-section .top-left-most {
+	    left: 0px;
+	}
+	.available-assets .top-right-most, .hosting-skills-earning .top-right-most, .t-seller-b-launches .top-right-most {
+	    top: -125px;
+	    right: -150px;
+	}
+	.available-assets .content-column-wrapper .top-left-most, .hosting-skills-earning .content-column-wrapper .top-left-most {
+	    right: 97%;
+	    max-width: 120px;
+	}
+}
+@media(max-width: 1199px) {
+	.py-200 {
+	    padding-top: 120px;
+	    padding-bottom: 120px;
+	}
+	.content-column-wrapper.three-column .image-column {
+	    flex: 0 0 25%;
+	    max-width: 25%;
+	}
+	.content-column-wrapper.three-column .content-column {
+	    flex: 0 0 32%;
+	    max-width: 32%;
+	}
+	.available-assets .content-column-wrapper .top-left-most, .hosting-skills-earning .content-column-wrapper .top-left-most {
+	    top: -20px;
+	}
+}
+@media (max-width: 1024px) {
+	body, .onekampagne-features {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.curved-section {
+		padding: 15px 65px;
+		bottom: -2px;
+	}
+	.carousel-navigation button[type=button] {
+		height: 40px;
+		padding: 6px 10px;
+	}
+	.accordion-item .accordion-button {
+		font-size: 18px;
+	}
+	.pricing-card .plan-price {
+		font-size: 30px;
+	}
+	.pricing-card .plan-features .feature-item .feature-text {
+		font-size: 14px;
+	}
+	.author-box {
+	    border-radius: 50px;
+	}
+	.steps-count .arrow-1, .steps-count .arrow-3 {
+	    max-width: calc(100% + 200px);
+	}
+	.steps-count .arrow-2, .steps-count .arrow-4 {
+	    max-width: calc(100% + 250px);
+	}
+}
+@media(max-width: 991px) {
+	.pt-130 {
+	    padding-top: 70px;
+	}
+	.section-y-paddings {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	.py-90 {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	.section-desc, .pricing-swith, .mb-100 {
+	    margin-bottom: 60px;
+	}
+	.mb-40, .mb-70 {
+		margin-bottom: 30px;
+	}
+	.order-now .content-column-wrapper.three-column .image-column {
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    order: 0;
+	}
+	.order-now .content-column-wrapper.three-column .content-column {
+	    flex: 0 0 calc(50% - 25px);
+	    max-width: calc(50% - 25px);
+	    order: 1;
+	}
+	.pricing-card-container .pricing-card {
+        flex: 0 0 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+    .pricing-card-container .pricing-card:last-of-type {
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.create-campaign .ltr.content-column-wrapper .content-column {
+        margin-right: 20px;
+    }
+	.create-campaign .rtl.content-column-wrapper .content-column {
+        margin-left: 20px;
+    }
+    .social-container .animated-social-icon {
+    	width: 50px;
+    	height: 50px;
+    }
+    .animated-social-icon .social-icon {
+	    width: 38px;
+	    height: 38px;
+	    border-radius: 50%;
+	}
+	.available-assets .top-left-most, .winning-products-section .top-left-most, .pricing-section .top-left-most {
+	    left: unset;
+	    right: 30%;
+	    top: 0px;
+	}
+}
+@media (max-width: 850px) {
+	.steps-count .arrow-1, .steps-count .arrow-3 {
+	    max-width: calc(100% + 150px);
+	}
+	.steps-count .arrow-2, .steps-count .arrow-4 {
+	    max-width: calc(100% + 200px);
+	}
+}
+@media(max-width: 767px) {
+	.steps-count .arrow-1, .steps-count .arrow-3, .steps-count .arrow-2, .steps-count .arrow-4 {
+		display: none;
+	}
+	.affiliate-marketing .img-top-right {
+	    bottom: 0;
+	    margin: auto;
+	}
+	.affiliate-marketing .features_box_wrapper .content-column {
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	.affiliate-marketing .features_box_wrapper .features-column {
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	.create-campaign .rtl.content-column-wrapper .content-column {
+        margin-left: 0px;
+    }
+    .create-campaign .ltr.content-column-wrapper .content-column {
+    	margin-right: 0px;
+    }
+    .content-column-wrapper .content-column, .content-column-wrapper .image-column,
+    .order-now .content-column-wrapper.three-column .content-column,
+    .order-now .content-column-wrapper.three-column .image-column, .pricing-card-container .pricing-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .author-section .author-box {
+	    padding: 30px;
+	}
+	.author-section .author-box .text-box {
+	    max-width: 100%;
+	    margin-bottom: 20px;
+	}
+	.author-section .author-box .author-profile {
+	    position: relative !important;
+	    max-width: 100%;
+	    right: 0;
+	    left: 0;
+	    margin-bottom: -30px;
+	}
+	div#faqsAccordion {
+	    margin-bottom: 30px;
+	}
+	.pricing-section {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.pricing-swith .switch-button {
+		padding-top: 13px 15px;
+	}
+	.create-campaign .img-left {
+	    right: 70%;
+	    opacity: 0.4;
+	}
+	.create-campaign .img-right {
+	    left: 70%;
+	    opacity: 0.4;
+	}
+	.steps-count {
+    	left: 0px;
+    	bottom: 60%;
+    	line-height: 75px;
+	}
+	.steps-count .count {
+	    font-size: 75px;
+	}
+	.available-assets .top-left-most, .winning-products-section .top-left-most, .pricing-section .top-left-most {
+	    right: 0%;
+	}
+	.available-assets .top-right-most, .hosting-skills-earning .top-right-most, .t-seller-b-launches .top-right-most {
+	    right: -100px;
+	}
+	.available-assets .content-column-wrapper .top-left-most, .hosting-skills-earning .content-column-wrapper .top-left-most {
+		left: unset;
+		right: 0px;
+		top: -80px;
+	}
+}
+@media(max-width: 574px) {
+	.features-column .feature-box {
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+}
+@media (max-width: 400px) {
+	.pricing-swith {
+    	max-width: 225px;
+	}
+	.pricing-swith .switch-button {
+    	max-width: 100px;
+	}
+}
