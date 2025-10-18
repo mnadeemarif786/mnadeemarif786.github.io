@@ -169,3 +169,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   animate();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Check if URL contains a hash (like #pricing_section)
+  const hash = window.location.hash;
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target) {
+      // Use a slight delay to ensure layout stabilizes
+      setTimeout(() => {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 500);
+    }
+  }
+});
