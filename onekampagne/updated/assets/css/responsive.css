@@ -20,8 +20,10 @@
 	    gap: 30px;
 	}
 	.pricing-card-container .pricing-card {
-		flex: 0 0 calc(33.333333% - 20px);
-    	max-width: calc(33.333333% - 20px);
+		/*flex: 0 0 calc(33.333333% - 20px);
+    	max-width: calc(33.333333% - 20px);*/
+    	flex: 0 0 calc(50% - 15px);
+    	max-width: calc(50% - 15px);
 	}
 	.section-sub-title {
 	    font-size: 22px;
