@@ -353,7 +353,7 @@ h1, h2 {
 }
 /* All in one Solutions */
 .all-in-one-solutions {
-    background-image: url(/assets/images/all-in-one-bg.webp);
+    background-image: url(../images/all-in-one-bg.webp);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -364,7 +364,7 @@ h1, h2 {
 }
 /* Fast Free Trafic */
 .fast-free-trafic.dark-bg-img {
-    background-image: url(/assets/images/dark-angular-gradient.webp);
+    background-image: url(../images/dark-angular-gradient.webp);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -928,4 +928,5 @@ h1, h2 {
         margin-bottom: 10px;
     }
 }
+
 /* **** Sticky Footer Style END **** */
