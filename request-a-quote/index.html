@@ -36,5 +36,12 @@
         <p>If you can't see the form or you are not redirected automatically,<br>click here:</p>
         <a href="https://forms.gle/P5hWkfGFgFhTYZRh7" rel="nofollow noopener">Click here to open it directly</a>
     </main>
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/assets/js/service-worker.js')
+            .then(reg => console.log('SW Registered', reg))
+            .catch(err => console.log('SW Error', err));
+        }
+    </script>
 </body>
 </html>
